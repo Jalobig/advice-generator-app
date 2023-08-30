@@ -1,0 +1,47 @@
+.card{
+    border-radius: 1rem;
+    margin: 14.0625rem auto ;
+    box-shadow: 0 0 2rem 0 var(--shadow);
+    background-color: var(--color-grey-dark);
+    max-width: 33.75rem;
+    padding: 3.25rem 2rem;
+    text-align: center;
+    position: relative;
+    @media only screen and (max-width:570px) {
+        max-width: 21.25rem;
+        width: 90%;
+        margin: 7.5rem auto ;
+}
+&__heading{
+    color: var(--color-primary);
+    text-transform: uppercase;
+    font-size: .8rem;
+    letter-spacing: 5px;
+    @media only screen and (max-width:570px) {
+        font-size: .6rem;
+    
+    }
+}
+&__text{
+    font-size: 1.75rem;
+    margin: 2rem 0;
+    @media only screen and (max-width:570px) {
+        font-size: 1.3rem;
+        margin: 1rem 0;
+    }
+}
+&__divider{
+    margin-bottom: 2rem;
+    width: 100%;
+    @media only screen and (max-width:570px) {
+        margin-bottom: 1rem;
+    
+    }
+}
+&__button{
+position: absolute;
+bottom: -2rem;
+left: 50%;
+
+}
+}

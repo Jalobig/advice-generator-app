@@ -1,0 +1,19 @@
+.button {
+  background-color: var(--color-primary);
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  transition: all .3s;
+  transform: translateX(-50%);
+  &:hover{
+      cursor: pointer;
+      filter: brightness(105%);
+      box-shadow: 0 0 2rem var(--color-primary);
+   
+      transform:translateX(-50%) translateY(-.5rem);
+    }
+    &:active{
+      transform:translateX(-50%) translateY(-.2rem);
+
+  }
+}

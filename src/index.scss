@@ -1,0 +1,30 @@
+:root {
+  // Colors
+
+  /// Primary
+
+  --color-text: hsl(193, 38%, 86%);
+  --color-primary: hsl(150, 100%, 66%);
+
+  /// Neutral
+
+  --color-grey: hsl(217, 19%, 38%);
+  --color-grey-dark: hsl(217, 19%, 24%);
+  --color-bg: hsl(218, 23%, 16%);
+
+  /// Shadows
+  --shadow: #00000054;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
